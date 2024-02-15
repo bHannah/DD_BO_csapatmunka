@@ -17,31 +17,38 @@
       <article>
         <form>
           <div>
-            <h1>Hogy tetszett a történet?</h1>
-            <label for="nev"><b>Név:</b></label>
-            <input
-              type="text"
-              placeholder="pl: Példa Anna"
-              name="nev"
-              required
-            />
-            <p><b>Melyik jelenet tetszett a legjobban?</b></p>
-            <input type="checkbox" id="1" name="1" />
-            <label for="1"> Első jelenet</label><br />
-            <input type="checkbox" id="2" name="2" />
-            <label for="2"> Második jelenet</label><br />
-            <input type="checkbox" id="3" name="3" />
-            <label for="3"> Hamradik jelenet</label><br />
-            <input type="checkbox" id="4" name="4" />
-            <label for="4"> Negyedik jelenet</label><br />
-            <label for="velemeny"> Kérlek fejtsd ki a véleményed:</label><br />
-            <input
-              type="textarea"
-              id="velemeny"
-              name="velemeny"
-              placeholder="ide írd..."
-            />
+            <h1>Hogy tetszett a történet bevezetése?</h1>
             <div>
+              <label for="nev"><b>Név:</b></label>
+              <input
+                type="text"
+                placeholder="pl: Példa Anna"
+                name="nev"
+                required
+              />
+            </div>
+            <div>
+              <p><b>Melyik jelenet tetszett a legjobban?</b></p>
+              <input type="checkbox" id="1" name="1" />
+              <label for="1"> Első jelenet</label>
+              <input type="checkbox" id="2" name="2" />
+              <label for="2"> Második jelenet</label>
+              <input type="checkbox" id="3" name="3" />
+              <label for="3"> Hamradik jelenet</label>
+              <input type="checkbox" id="4" name="4" />
+              <label for="4"> Negyedik jelenet</label>
+            </div>
+            <div>
+              <label for="velemeny"> Kérlek fejtsd ki a véleményed:</label>
+            </div>
+            <div>
+              <textarea
+                id="velemeny"
+                name="velemeny"
+                placeholder="ide írd..."
+              ></textarea>
+            </div>
+            <div class="gombok">
               <button type="button" class="megsem">Mégsem</button>
               <button type="submit" class="bekuldes">Elküldés</button>
             </div>
