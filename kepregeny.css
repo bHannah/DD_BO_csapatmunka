@@ -1,0 +1,10 @@
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section > div {
+  max-width: 480px;
+  flex: 0 1 50%;
+}
