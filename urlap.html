@@ -1,26 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="stilus.css">
-</head>
-<body>
-    <header>
-
-    </header>
-    <nav>
+    <link rel="stylesheet" href="stilus.css" />
+  </head>
+  <body>
+    <main>
+      <nav>
         <ul>
-            <li><a href="index.html"></a></li>
-            <li><a href="urlap.html"></a></li>
+          <li><a href="index.html">Történet</a></li>
+          <li><a href="urlap.html">Űrlap</a></li>
         </ul>
-    </nav>
-    <article>
-
-    </article>
-    <footer>
-
-    </footer>
-</body>
+      </nav>
+      <article>
+        <form>
+          <div>
+            <h1>Hogy tetszett a történet?</h1>
+            <label for="nev"><b>Név:</b></label>
+            <input
+              type="text"
+              placeholder="pl: Példa Anna"
+              name="nev"
+              required
+            />
+            <p><b>Melyik jelenet tetszett a legjobban?</b></p>
+            <input type="checkbox" id="1" name="1" />
+            <label for="1"> Első jelenet</label><br />
+            <input type="checkbox" id="2" name="2" />
+            <label for="2"> Második jelenet</label><br />
+            <input type="checkbox" id="3" name="3" />
+            <label for="3"> Hamradik jelenet</label><br />
+            <input type="checkbox" id="4" name="4" />
+            <label for="4"> Negyedik jelenet</label><br />
+            <label for="velemeny"> Kérlek fejtsd ki a véleményed:</label><br />
+            <input
+              type="textarea"
+              id="velemeny"
+              name="velemeny"
+              placeholder="ide írd..."
+            />
+            <div>
+              <button type="button" class="megsem">Mégsem</button>
+              <button type="submit" class="bekuldes">Elküldés</button>
+            </div>
+          </div>
+        </form>
+      </article>
+    </main>
+  </body>
 </html>
