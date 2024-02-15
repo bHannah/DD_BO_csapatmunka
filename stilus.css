@@ -6,6 +6,7 @@
 }
 
 main {
+  max-width: 1280px;
   margin: auto;
   width: 80%;
   display: flex;
@@ -34,7 +35,11 @@ nav li {
   text-align: center;
 }
 
+/*Űrlap design*/
+
 article {
+  width: 80%;
+  margin: auto;
   padding: 30px;
   border: 1px solid black;
   margin-left: 30px;
@@ -42,5 +47,20 @@ article {
 }
 
 article h1 {
-  margin-bottom: 10px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+article div {
+  margin: 10px;
+}
+
+article button {
+  margin: 2px;
+  padding: 10px;
+  background-color: bisque;
+}
+
+textarea {
+  width: 100%;
 }
