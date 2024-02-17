@@ -1,10 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+.bangers-regular {
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+  letter-spacing: 1px;
+  line-height: 1.8rem;
+  color: white;
+  text-align: center;
+}
+
 section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 1rem;
 }
 
 section > div {
-  max-width: 480px;
+  max-width: 500px;
+
   flex: 0 1 50%;
+  border: 5px solid orange;
+  background-color: #222;
+}
+
+.szoveg-div {
+  padding: 1rem;
+  border-top: 3px solid orange;
+}
+
+.kepkocka-keret > img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
 }

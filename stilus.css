@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -5,10 +7,14 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+  background-color: #444;
+}
+
 main {
   max-width: 1280px;
-  margin: auto;
-  width: 80%;
+  margin: 1rem auto;
+  width: 100%;
   display: flex;
 }
 
@@ -18,21 +24,36 @@ nav ul {
   list-style-type: none;
   margin: 5px;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 nav li a {
   text-decoration: none;
   margin: 0;
   padding: 0;
-  color: black;
+  color: white;
+  font-family: "Anton", sans-serif;
+  font-size: 1.5rem;
 }
 
 nav li {
   margin: 5 10;
-  padding: 10px;
-  background-color: bisque;
-  border: 1px solid black;
+  padding: 20px;
+  background-color: #222;
+  border: 3px solid orange;
   text-align: center;
+  width: 120%;
+  transition: 0.5s;
+}
+
+nav li:hover {
+  background-color: #333;
+}
+
+nav li:hover a {
+  text-shadow: 1px 1px orange;
 }
 
 /*Űrlap design*/
