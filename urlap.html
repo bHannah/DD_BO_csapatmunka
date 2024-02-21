@@ -16,10 +16,10 @@
       </nav>
       <article>
         <form>
-          <div>
-            <h1>Hogy tetszett a történet bevezetése?</h1>
+          <div id="nagydiv">
+            <h1>Apró kacsa quiz!</h1>
             <div>
-              <label for="nev"><b>Név:</b></label>
+              <label for="nev">Név:</label>
               <input
                 type="text"
                 placeholder="pl: Példa Anna"
@@ -27,21 +27,82 @@
                 required
               />
             </div>
-            <div>
-              <p><b>Melyik jelenet tetszett a legjobban?</b></p>
+            <div  id="alatt">
+              <p>Melyik jelenet tetszett a legjobban?</p>
+              <div class="chk">
               <input type="checkbox" id="1" name="1" />
               <label for="1"> Első jelenet</label>
+            </div>
+            <div class="chk">
               <input type="checkbox" id="2" name="2" />
               <label for="2"> Második jelenet</label>
+            </div>
+            <div class="chk">
               <input type="checkbox" id="3" name="3" />
               <label for="3"> Hamradik jelenet</label>
+            </div>
+            <div  class="chk">
               <input type="checkbox" id="4" name="4" />
               <label for="4"> Negyedik jelenet</label>
             </div>
-            <div>
-              <label for="velemeny"> Kérlek fejtsd ki a véleményed:</label>
             </div>
             <div>
+              <p>Mi volt a kacsafoglalkozása?</p>
+              <div  class="chk">
+              <input type="radio" id="dandar" name="foglalkozas" />
+              <label for="dandar"> Dandártábornok</label>
+            </div>
+            <div  class="chk">
+              <input type="radio" id="acel" name="foglalkozas" />
+              <label for="acel"> Acél  légiós</label>
+            </div>
+            </div>
+            <div>
+              <p>Ki segített a kacsának?</p>
+              <div  class="chk">
+              <input type="radio" id="fohadnagy" name="segitseg" />
+              <label for="fohadnagy">Főhadnagy</label>
+            </div>
+              <div  class="chk">
+              <input type="radio" id="szuperkacsa" name="segitseg" />
+              <label for="szuperkacsa">Szuperkacsa</label>
+            </div>
+            </div>
+            <div>
+              <p>Miért döntött úgy a kacsa,  hogy szuperkacsának áll?</p>
+              <div  class="chk">
+              <input type="checkbox" id="unalom" name="unalom" />
+              <label for="unalom">Unalomból</label>
+            </div>
+              <div  class="chk">
+              <input type="checkbox" id="segit" name="segit" />
+              <label for="segit">Segíteni akart másokon</label>
+            </div>
+            </div>
+            <div>
+              <p>Hol találkozott először  a kiskacsa, és a megmentője?</p>
+              <div  class="chk">
+              <input type="radio" id="folyopart" name="folyopart" />
+              <label for="fohadnagy">A folyóparton</label>
+            </div>
+              <div  class="chk">
+              <input type="radio" id="dedikalas" name="dedikalas" />
+              <label for="dedikalas">Rettegett Iván arckép dedikálásán</label>
+            </div>
+            </div>
+            <div>
+              <p>Milyen szinű a szuperkacsa?</p>
+              <div  class="chk">
+              <input type="radio" id="kek" name="kek" />
+              <label for="kek">Kék</label>
+            </div>
+              <div  class="chk">
+              <input type="radio" id="zold" name="zold" />
+              <label for="zold">Zöld</label>
+            </div>
+            </div>
+            <div>
+              <label for="velemeny"> Kérlek fejtsd ki a véleményed:</label>
               <textarea
                 id="velemeny"
                 name="velemeny"

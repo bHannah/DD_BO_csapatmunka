@@ -4,7 +4,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Anton", sans-serif;
 }
 
 body {
@@ -59,12 +59,13 @@ nav li:hover a {
 /*Űrlap design*/
 
 article {
+  color: white;
   width: 80%;
   margin: auto;
   padding: 30px;
-  border: 1px solid black;
+  border: 3px solid orange;
   margin-left: 30px;
-  background-color: rgba(218, 183, 160, 0.5);
+  background-color: black;
 }
 
 article h1 {
@@ -76,12 +77,61 @@ article div {
   margin: 10px;
 }
 
-article button {
-  margin: 2px;
+article button { 
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+  color: white;
   padding: 10px;
-  background-color: bisque;
+  background-color: #222;
+  border: 3px solid orange;
+  text-align: center;
+  width: 20%;
+  transition: 0.5s;
 }
 
 textarea {
+  margin: 20px 0px;
+  height: 100px;
   width: 100%;
+  padding: 20px;
+}
+
+p{
+  padding: 10px 0px;
+}
+
+h1{
+  letter-spacing: 2px;
+  padding: 20px;
+  background-color: #333;
+}
+
+h3{
+  letter-spacing: 2px;
+  padding: 20px 0px;
+}
+
+#nagydiv{
+  border: 3px solid orange;
+  padding: 20px;
+  background-color: #333;
+}
+
+div{
+  border: 1px solid orange;
+  padding: 20px;
+  background-color: black;
+}
+
+.chk{
+  border: none;
+  margin: 0%;
+  padding: 2px;
+}
+
+.gombok{
+  border: none;
+  background-color: #333;
+  margin: 20px  0px;
 }

@@ -20,7 +20,6 @@ section {
 
 section > div {
   max-width: 500px;
-
   flex: 0 1 50%;
   border: 5px solid orange;
   background-color: #222;
