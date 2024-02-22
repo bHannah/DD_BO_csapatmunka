@@ -35,3 +35,15 @@ section > div {
   margin: 0 auto;
   width: 100%;
 }
+
+@media screen and (max-width: 750px) {
+  section > div {
+    max-width: none;
+    flex: 0 1 100%;
+  }
+
+  .bangers-regular {
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+}
